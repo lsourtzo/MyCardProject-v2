@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyCard</string>
+    <string name="congratulations">Congratulations! You have been selected for a scholarship to learn Android !</string>
+    <string name="udacity">UDACITY</string>
+    <string name="funded">Funded by: Google</string>
+    <string name="development">Android Development for Beginners</string>
+</resources>

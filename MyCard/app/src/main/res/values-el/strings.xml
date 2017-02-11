@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Η Κάρτα μου</string>
+    <string name="congratulations">Συγχαρητήρια! Έχετε επιλεγεί για μια υποτροφία για να μάθετε προγραμματισμό Android!</string>
+    <string name="development">Ανάπτυξη Android εφαρμογών για αρχάριους</string>
+    <string name="funded">Χρηματοδοτείται από την: Google</string>
+    <string name="udacity">UDACITY</string>
+</resources>

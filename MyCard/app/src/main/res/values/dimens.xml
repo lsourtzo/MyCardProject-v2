@@ -1,0 +1,11 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="TopBot">4dp</dimen>
+    <dimen name="RL">8dp</dimen>
+    <dimen name="SizeOfText">18sp</dimen>
+    <dimen name="SizeOfTitle">26sp</dimen>
+    <dimen name="fireworksleft">20dp</dimen>
+    <dimen name="fireworkstop">10dp</dimen>
+</resources>

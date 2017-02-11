@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- hide status bar -->
+        <item name="android:windowFullscreen">true</item>
+
+    </style>
+
+    <style name="BottomText" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">@dimen/TopBot</item>
+        <item name="android:paddingTop">@dimen/TopBot</item>
+        <item name="android:paddingRight">@dimen/RL</item>
+        <item name="android:paddingLeft">@dimen/RL</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorTextW</item>
+        <item name="android:textSize">@dimen/SizeOfText</item>
+    </style>
+
+</resources>

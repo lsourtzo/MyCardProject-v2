@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lsourtzo.card.mycard.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/screen1"
+        />
+
+    <ImageView
+        android:id="@+id/fireworkimage"
+        android:layout_below="@+id/title"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="@dimen/fireworksleft"
+        android:layout_marginTop="@dimen/fireworkstop"
+        />
+
+    <com.lsourtzo.card.mycard.TextAll
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/colorTextB"
+        android:background="@color/colorBackT"
+        android:textSize="@dimen/SizeOfTitle"
+        android:padding="@dimen/RL"
+        android:text="@string/congratulations"
+        />
+
+    <com.lsourtzo.card.mycard.TextAll
+        android:layout_width="match_parent"
+        style="@style/BottomText"
+        android:id="@+id/til2"
+        android:background="@color/colorBackG"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:text="@string/udacity"/>
+
+    <com.lsourtzo.card.mycard.TextAll
+        android:layout_width="wrap_content"
+        style="@style/BottomText"
+        android:background="@color/colorBackG"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="@string/funded"/>
+
+    <com.lsourtzo.card.mycard.TextAll
+        android:layout_width="match_parent"
+        style="@style/BottomText"
+        android:layout_above="@id/til2"
+        android:background="@color/colorBackG2"
+        android:text="@string/development"
+        android:gravity="end"/>
+</RelativeLayout>
+
